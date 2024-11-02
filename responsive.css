@@ -1,0 +1,82 @@
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .container h1 {
+        font-size: 30px;
+    }
+
+    .container .input-box {
+        height: 45px;
+        margin: 20px 0;
+    }
+
+    .input-box input {
+        font-size: 14px;
+        padding: 15px 40px 15px 15px;
+    }
+
+    .input-box i {
+        font-size: 18px;
+    }
+
+    .container .btn {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .container .register-link {
+        font-size: 13px;
+    }
+
+    .remember-forgot {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 13px;
+    }
+
+    .remember-forgot a {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container h1 {
+        font-size: 25px;
+    }
+
+    .container .input-box {
+        height: 40px;
+        margin: 15px 0;
+    }
+
+    .input-box input {
+        font-size: 12px;
+        padding: 10px 35px 10px 10px;
+    }
+
+    .input-box i {
+        font-size: 16px;
+    }
+
+    .container .btn {
+        height: 35px;
+        font-size: 13px;
+    }
+
+    .container .register-link {
+        font-size: 12px;
+    }
+
+    .remember-forgot {
+        font-size: 12px;
+    }
+}
